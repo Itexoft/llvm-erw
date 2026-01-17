@@ -1,0 +1,4 @@
+<Solution>
+    <Project Path="LlvmEr.Core\LlvmEr.Core.csproj" />
+    <Project Path="LlvmEr\LlvmEr.csproj" />
+</Solution>

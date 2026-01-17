@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <AssemblyName>llvm-er</AssemblyName>
+        <PackageId>llvm.er</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\LlvmEr.Core\LlvmEr.Core.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Condition="$(ArtifactsRoot) != ''" Include="$(ArtifactsRoot)/**" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>
